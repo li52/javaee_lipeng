@@ -6,6 +6,7 @@
         return new java.util.Date().toString();
     }
     int count =10;
+
 %>
 <html>
 <head>
@@ -29,7 +30,17 @@
                     color = c2;
                 }
                 out.println("<tr style=\"background:"+color+";\"><td>-</td></tr>");
+                //这是一个对象   只能对象调用方法
             }
+            //        out 输出
+//        request 请求\ [rɪ'kwest]
+//        response 响应\ [rɪ'spɒns]
+//        session 会话\ ['seʃ\(ə\)n]
+//        application 应用程序\ [ˌæplɪ'keɪʃ\(ə\)n]
+//        pageContext 上下文\ ['kɒntekst]
+//        page
+//        config 配置\ [kən'fɪɡ]
+//        exception
         %>
     </table>
     <hr/>
