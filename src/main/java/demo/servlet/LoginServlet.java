@@ -1,3 +1,4 @@
+/*
 package demo.servlet;
 import demo.util.Db;
 
@@ -13,16 +14,18 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 
+*/
 /**
  * Created by ${李朋}
  * on 2017/6/9.
- */
+ *//*
+
 //@WebServlet(urlPatterns = "/login")
-@WebServlet(urlPatterns = "/login")
+//@WebServlet(urlPatterns = "/login")
 public class LoginServlet extends HttpServlet {
-    @Override
+    //@Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String mobile = req.getParameter("mobile");
+        //String mobile = req.getParameter("mobile");
         String password = req.getParameter("password");
 
         Connection connection = Db.getConnection();
@@ -54,3 +57,4 @@ public class LoginServlet extends HttpServlet {
         }
     }
 }
+*/

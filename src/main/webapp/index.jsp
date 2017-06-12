@@ -11,8 +11,8 @@
     <title>index page</title>
 </head>
 <body>
-<h1>登录<%=session.getId()%></h1>
-<form action="user" method="post">
+<h1>登录<%--<%=session.getId()%>--%></h1>
+<form action="user">
     <input type="hidden" name="action" value="login">
     <input type="text" name="mobile" placeholder="手机号"><br>
     <input type="password" name="password" placeholder="密码"><br>

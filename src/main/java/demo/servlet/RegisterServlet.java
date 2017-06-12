@@ -1,3 +1,4 @@
+/*
 package demo.servlet;
 
 import demo.util.Db;
@@ -12,6 +13,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Arrays;
+*/
 /**
  * Created by ${李朋}
  * on 2017/6/9.
@@ -19,7 +21,8 @@ import java.util.Arrays;
  * 1. 接收请求
  * 2. 处理请求
  * 3. 返回响应
- */
+ *//*
+
 //@WebServlet(urlPatterns = "/register")
 public class RegisterServlet extends HttpServlet {
     @Override
@@ -82,3 +85,4 @@ public class RegisterServlet extends HttpServlet {
         }
     }
 }
+*/

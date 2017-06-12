@@ -1,3 +1,4 @@
+/*
 package demo.servlet;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -5,10 +6,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+*/
 /**
  * Created by ${李朋}
  * on 2017/6/9.
- */
+ *//*
+
 @WebServlet(urlPatterns = "/logout")
 public class LogoutServlet extends HttpServlet {
     @Override
@@ -17,3 +20,4 @@ public class LogoutServlet extends HttpServlet {
         resp.sendRedirect("index.jsp");
     }
 }
+*/

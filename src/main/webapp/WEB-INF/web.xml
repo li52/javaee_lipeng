@@ -6,14 +6,14 @@
     <!--eXtension Markup Language-->
 
     <!--1. 注册一个 servlet-->
-    <servlet>
+   <!-- <servlet>
         <servlet-name>register</servlet-name>
         <servlet-class>demo.servlet.RegisterServlet</servlet-class>
     </servlet>
 
-    <!--2. 映射一个 servlet-->
+    &lt;!&ndash;2. 映射一个 servlet&ndash;&gt;
     <servlet-mapping>
         <servlet-name>register</servlet-name>
         <url-pattern>/register</url-pattern>
-    </servlet-mapping>
+    </servlet-mapping>-->
 </web-app>
