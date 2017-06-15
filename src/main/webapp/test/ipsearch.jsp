@@ -33,7 +33,7 @@
         ps.setString(1,ip);
         ResultSet resultSet = ps.executeQuery();
         resultSet.next();
-        String message=(String) request.getAttribute("message")
+        String message=(String) request.getAttribute("message");
         out.print(message);
         resultSet.close();
         ps.close();

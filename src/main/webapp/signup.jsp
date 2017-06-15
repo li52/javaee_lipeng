@@ -19,7 +19,7 @@ Shift + Alt + F10
 Ctrl + Option + R
 
 </pre>
-
+<h1>注册</h1>
 <form action="user" method="post">
     <input type="hidden" name="action" value="register">
     <input type="text" name="nick" placeholder="昵称"><br>
@@ -38,11 +38,12 @@ Ctrl + Option + R
     <%--</select><br>--%>
     <%--<input type="submit" value="注册">--%>
 </form>
-<%
+<%--<%
     String message = (String) request.getAttribute("message");
     if (message != null) {
         out.print(message);
     }
-%>
+%>--%>
+${requestScope.message}
 </body>
 </html>
